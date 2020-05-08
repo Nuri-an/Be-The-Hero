@@ -6,8 +6,7 @@
     "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +23,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "bundleIdentifier": "com.nurCorp.bethehero",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.nurCorp.bethehero",
+      "versionCode": 1
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#E02041",
+      "hidden": true
+    },
+    "notification": {
+      "icon": "./assets/icon_.png",
+      "color": "#E02041"
+    },
+    "EXPO_DEBUG": true
   }
 }
